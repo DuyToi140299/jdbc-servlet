@@ -2,4 +2,12 @@ Manifest-Version: 1.0
 Built-By: Mr.DUNG
 Build-Jdk: 1.8.0_221
 Created-By: Maven Integration for Eclipse
+#!/bin/bash
+set -e
+set -o pipefail
 
+SCRIPT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]}")"
+REPO_URL="${REPO_URL:-r.j3ss.co}"
+JOBS=${JOBS:-2}
+
+ERRORS="$(pwd)/errors"
