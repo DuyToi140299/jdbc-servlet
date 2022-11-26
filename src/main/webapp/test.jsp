@@ -18,7 +18,7 @@ Email ID: <input type="text" name="email"><br/>
 <br/>
 <br/>
 <br/>
-<------------------------------------------------https://www.instagram.com/iotyud.pdf/
+<------------------------------------------------https://www.instagram.com/iotyud.pdf99/
 Enter Username and Email ID using POST method
 <h3>Notice the queryString is not present in the URL as the query string is sent in the body</h3>
 <form action="FirstServlet" method="post">
